@@ -15,7 +15,7 @@ const ProductForm = ({ product }: ProductFormProps) => {
           id="name"
           type="text"
           className="mt-2 block w-full p-3 bg-gray-50"
-          placeholder="Nombre del Producto"
+          placeholder="Product Name"
           name="name"
           defaultValue={product?.name}
         />
@@ -28,7 +28,7 @@ const ProductForm = ({ product }: ProductFormProps) => {
           id="price"
           type="number"
           className="mt-2 block w-full p-3 bg-gray-50"
-          placeholder="Precio Producto. ej. 200, 300"
+          placeholder="Product price. ex. 200, 300"
           name="price"
           defaultValue={product?.price}
         />
